@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="username">Username :</string>
+    <string name="usernamee">Username</string>
+    <string name="password">Password :</string>
+    <string name="passwordd">Password</string>
+    <string name="login">Login</string>
+    <string name="start">Start</string>
+    <string name="statistics">Statistics</string>
+    <string name="ime">Ime</string>
+    <string name="Najbolji">Najbolji</string>
+    <string name="rezultat">Rezultat</string>
+    <string name="email">Email</string>
+    <string name="Najgori">Najgori</string>
+    <string name="remove">Remove Me</string>
+    <string name="emaill">Email:</string>
+    <string name="register">Register</string>
+    <string name="refreshh">Refresh</string>
+    <string name="obavestenje">Uzbuna !!!</string>
+</resources>

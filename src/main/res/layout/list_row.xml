@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.15"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text="@string/ime"
+            android:layout_gravity="center"
+            android:id="@+id/imeIgraca"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/email"
+            android:id="@+id/email"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.15"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/Najbolji"
+            android:id="@+id/najbolji"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="@string/Najgori"
+            android:id="@+id/najgori"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.15"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/rezultatB"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/rezultatW"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/remove"
+            android:id="@+id/dugmeObrisi" />
+    </LinearLayout>
+</LinearLayout>
